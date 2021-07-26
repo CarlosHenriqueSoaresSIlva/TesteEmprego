@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Computador"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-23 06:42:28 "/>
+        <attribute name="created" value="Q29tcHV0YWRvcjtTRVJWSURPUjM7MjAyMS0wNy0yMjsiMDE6MTA6MzUgIjsyOTA4"/>
+        <attribute name="edited" value="Q29tcHV0YWRvcjtTRVJWSURPUjM7MjAyMS0wNy0yMzsiMDY6NDI6MjggIjsyOzMwMzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor1, valor2, resultado" type="Integer" array="False" size=""/>
+            <declare name="operador" type="String" array="False" size=""/>
+            <output expression="&quot;Insira seu n&#250;mero:  &quot;" newline="True"/>
+            <input variable="valor1"/>
+            <output expression="&quot;Qual opera&#231;&#227;o deseja usar (+) (-) (*) (/) (%)? : &quot;" newline="True"/>
+            <input variable="operador"/>
+            <output expression="&quot;Insira outro n&#250;mero: &quot;" newline="True"/>
+            <input variable="valor2"/>
+            <if expression="operador==&quot;+&quot;">
+                <then>
+                    <assign variable="resultado" expression="valor1+valor2"/>
+                    <output expression="(&quot;Seu n&#250;mero Bin&#225;rio &#233;: &quot; &amp; resultado)" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="operador==&quot;-&quot;">
+                <then>
+                    <assign variable="resultado" expression="valor1-valor2"/>
+                    <output expression="(&quot;Seu n&#250;mero Bin&#225;rio &#233;: &quot; &amp; resultado)" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="operador==&quot;*&quot;">
+                <then>
+                    <assign variable="resultado" expression="valor1*valor2"/>
+                    <output expression="(&quot;Seu n&#250;mero Bin&#225;rio &#233;: &quot; &amp; resultado)" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="operador==&quot;/&quot;">
+                <then>
+                    <assign variable="resultado" expression="valor1/valor2"/>
+                    <output expression="(&quot;Seu n&#250;mero Bin&#225;rio &#233;: &quot; &amp; resultado)" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="operador==&quot;%&quot;">
+                <then>
+                    <assign variable="resultado" expression="valor1%valor2"/>
+                    <output expression="(&quot;Seu n&#250;mero Bin&#225;rio &#233;: &quot; &amp; resultado)" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

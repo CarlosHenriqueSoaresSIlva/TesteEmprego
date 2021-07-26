@@ -1,0 +1,31 @@
+﻿Subprograma Principal
+    Declarar Inteiro valor1, valor2, resultado
+    Declarar Texto operador
+    
+    Escrever "Insira seu número:  "
+    Ler valor1
+    Escrever "Qual operação deseja usar (+) (-) (*) (/) (%)? : "
+    Ler operador
+    Escrever "Insira outro número: "
+    Ler valor2
+    Se operador=="+"
+        Atribuir resultado <- valor1+valor2
+        Escrever ("Seu número Binário é: " & resultado)
+    Fim
+    Se operador=="-"
+        Atribuir resultado <- valor1-valor2
+        Escrever ("Seu número Binário é: " & resultado)
+    Fim
+    Se operador=="*"
+        Atribuir resultado <- valor1*valor2
+        Escrever ("Seu número Binário é: " & resultado)
+    Fim
+    Se operador=="/"
+        Atribuir resultado <- valor1/valor2
+        Escrever ("Seu número Binário é: " & resultado)
+    Fim
+    Se operador=="%"
+        Atribuir resultado <- valor1%valor2
+        Escrever ("Seu número Binário é: " & resultado)
+    Fim
+Fim
